@@ -1,0 +1,8 @@
+export(skewProbit.fit)
+export(skewProbit)
+
+importFrom(sn, psn)
+importFrom(ucminf, ucminf)
+importFrom("stats", "binomial", "coef", "dnorm", "glm", "model.frame",
+		 "model.matrix", "model.response", "pnorm", "printCoefmat",
+		 "qnorm", "runif")
